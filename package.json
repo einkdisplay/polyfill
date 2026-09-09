@@ -1,0 +1,44 @@
+{
+  "name": "potatoeinkdisplay-polyfill",
+  "version": "0.1.0",
+  "description": "Browser polyfill for PED navigator.kindle APIs",
+  "author": "Enita Nureya <enitanureya@outlook.com>",
+  "license": "Unlicense",
+  "type": "module",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "LICENSE",
+    "README.md"
+  ],
+  "dependencies": {
+    "potatoeinkdisplay-types": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/einkdisplay/polyfill.git"
+  },
+  "homepage": "https://github.com/einkdisplay/polyfill",
+  "bugs": {
+    "url": "https://github.com/einkdisplay/polyfill/issues"
+  },
+  "keywords": [
+    "kindle",
+    "eink",
+    "ped",
+    "potato",
+    "polyfill",
+    "navigator.kindle",
+    "typescript"
+  ],
+  "packageManager": "pnpm@12.3.4"
+}
